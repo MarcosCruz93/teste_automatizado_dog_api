@@ -3,9 +3,20 @@
 Projeto de teste automatizado de api desenvolvido em Java.
 - [API utilizada para teste - Dog Ceo](https://dog.ceo/)
 
+## Resumo para execução rápida do projeto
+Clonar o repositório em sua máquina local
+
+Para executar apenas os testes usar o seguinte comando `mvn clean test`
+
+Para executar os testes e gerar o relatório HTML utilizar o seguinte comando `mvn clean test site`
+
+O relatório de testes gerado encontra-se no diretorio `target/site/surefire-report.html`
+
 ## Versão do Java
 java version "1.8.0_451"
+
 Java(TM) SE Runtime Environment (build 1.8.0_451-b10)
+
 Java HotSpot(TM) 64-Bit Server VM (build 25.451-b10, mixed mode)
 
 ## Dependencias
